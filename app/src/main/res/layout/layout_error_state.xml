@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/bg_white">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_more_vert"
+        app:tint="@color/primary"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/errorTitleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_state_title"
+        android:textSize="20sp"
+        android:textColor="@color/gray_700"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_state_message"
+        android:textSize="14sp"
+        android:textColor="@color/gray_600"
+        android:fontFamily="@font/poppins_regular"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/retryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retry_button"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        app:strokeColor="@color/primary"
+        app:strokeWidth="1dp"/>
+
+</LinearLayout>

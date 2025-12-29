@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Seekho</string>
+
+    <!-- Empty State -->
+    <string name="empty_state_title">No Anime Found</string>
+    <string name="empty_state_message">Pull down to refresh and discover amazing anime!</string>
+
+    <!-- Error State -->
+    <string name="error_state_title">Oops! Something went wrong</string>
+    <string name="error_state_message">Unable to load anime data. Please check your connection.</string>
+    <string name="retry_button">Try Again</string>
+    <string name="ratings">RATINGS</string>
+    <string name="years_old">Years Old</string>
+    <string name="favourites">Favourites</string>
+    
+    <!-- Anime Detail -->
+    <string name="episodes_format">%d Episodes</string>
+    <string name="episode_format">%d Episode</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="play_trailer">Play Trailer</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="genres">Genres</string>
+    <string name="additional_information">Additional Information</string>
+    <string name="source">Source:</string>
+    <string name="age_rating">Age Rating:</string>
+    <string name="popularity">Popularity:</string>
+    <string name="members">Members:</string>
+    <string name="rank_format">#%d</string>
+    <string name="popularity_format">#%d</string>
+    <string name="members_format">%,d</string>
+    <string name="favorites_format">%,d</string>
+</resources>
